@@ -1,0 +1,25 @@
+# to remove the git files which moved into github
+  git rm -r --cached .
+  git add .
+  git commit -m "Untrack files in .gitignore"
+  git push origin master
+
+# to push the files to github
+
+  git commit -m "Pass the message on what changed so far"
+  git push master
+  git push origin master
+
+# configure git mac users
+  git remote add origin https://github.com/reddycloudengineer/ecommerce_app.git
+  git remote -v
+  git push -u origin master
+  git config user.name reddycloudengineer
+  git config user.name
+  git config user.email reddy.cloudengineer@gmail.com
+
+# configure git mac at global level
+nano ~/.gitconfig
+change username, password
+
+#
