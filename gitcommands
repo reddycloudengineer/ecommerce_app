@@ -26,3 +26,7 @@ python manage.py startapp app_name
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+
+# things to remember in django
+# always add app after creating it in settings.py
+
