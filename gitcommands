@@ -5,7 +5,7 @@
   git push origin master
 
 # to push the files to github
-
+  git add .
   git commit -m "Pass the message on what changed so far"
   git push master
   git push origin master
@@ -22,4 +22,5 @@
 nano ~/.gitconfig
 change username, password
 
-#
+#django commands
+python manage.py startapp app_name
