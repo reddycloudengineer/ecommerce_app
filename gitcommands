@@ -7,7 +7,6 @@
 # to push the files to github
   git add .
   git commit -m "Pass the message on what changed so far"
-  git push master
   git push origin master
 
 # configure git mac users
@@ -24,3 +23,6 @@ change username, password
 
 #django commands
 python manage.py startapp app_name
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
