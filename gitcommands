@@ -25,8 +25,23 @@ change username, password
 python manage.py startapp app_name
 python manage.py makemigrations
 python manage.py migrate
+python manage.py createsuperuser # creating super user (adminuser,adminuser)
 python manage.py runserver
+python manage.py test # this will run all the files which inherit from the TestCase sub class for Django
 
 # things to remember in django
 # always add app after creating it in settings.py
+# any new pip install, do a pip freeze > requirements.txt
 
+# testing tips
+# don't create a value for auto populated fields (Eg: auto increment feilds, auto date time etc)
+# create a tests folder and move the test files to that folder to keep it uniform 
+
+
+
+#desiging end points
+products	    GET	    READ	Get all products
+products/:id	GET	    READ	Get a single product
+products	    POST    CREATE	Add a single product
+products/:id	PUT	    UPDATE	Update a single product
+products/:id	DELETE	DELETE	Delete a single product

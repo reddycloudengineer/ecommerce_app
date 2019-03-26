@@ -14,5 +14,8 @@ class Products(models.Model):
     def get_price(self):
         return self.price
 
+    def get_name(self):
+        return self.name
+
     def __repr__(self):
         return self.name + ' is added.'
