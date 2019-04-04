@@ -1,3 +1,5 @@
+
+
 # to remove the git files which moved into github
   git rm -r --cached .
   git add .
@@ -20,6 +22,15 @@
 # configure git mac at global level
 nano ~/.gitconfig
 change username, password
+
+#creating virtual environment
+python3 -m pip install --user virtualenv
+python3 -m virtualenv env
+source env/bin/activate
+deactivate # to deactivate environment
+
+#requirments.txt
+pip install -r requirements.txt
 
 #django commands
 python manage.py startapp app_name
