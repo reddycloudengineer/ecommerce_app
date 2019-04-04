@@ -18,6 +18,12 @@
   git config user.name reddycloudengineer
   git config user.name
   git config user.email reddy.cloudengineer@gmail.com
+  git status # will give us the status of the git commit
+  git add . # will add all the files in the current folder into the git repo
+  git show # will show the differences between the files changed
+  git ls-files # to show all the files which are being tracked by git
+
+  git add git commit canbe replaced by git commit -a
 
 # configure git mac at global level
 nano ~/.gitconfig
