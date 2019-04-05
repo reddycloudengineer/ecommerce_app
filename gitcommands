@@ -22,6 +22,7 @@
   git add . # will add all the files in the current folder into the git repo
   git show # will show the differences between the files changed
   git ls-files # to show all the files which are being tracked by git
+  git .gitignore
 
   git add git commit canbe replaced by git commit -a
   git reset HEAD <filename> # this will take us back to the old version of the file with the head at the start of the git pull
