@@ -26,6 +26,10 @@
   git add git commit canbe replaced by git commit -a
   git reset HEAD <filename> # this will take us back to the old version of the file with the head at the start of the git pull
   git checkout --<file> # this will not commit this file but commit all other changes in the folder
+  git log --oneline --graph --decorate --all # this will give all the information about log in one line, provides information
+  # about parent, changes
+  git mv old_file_name.txt new_file_name.txt # this will change the name of file to new file name
+  #
 
 # configure git mac at global level
 nano ~/.gitconfig
