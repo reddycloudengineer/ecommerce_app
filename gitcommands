@@ -8,8 +8,11 @@
 
 # to push the files to github
   git add .
+  git commit --all -m "This will reduce on step on doing git add . as this will take care of that step"
   git commit -m "Pass the message on what changed so far"
+
   git push origin master
+
 
 # configure git mac users
 
