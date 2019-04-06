@@ -18,6 +18,9 @@
   git config user.name reddycloudengineer
   git config user.name
   git config user.email reddy.cloudengineer@gmail.com
+  ## add users at global level
+  git config --global user.email "reddy.cloudengineer@gmail.com"
+  git config --global user.name "your name"
   git status # will give us the status of the git commit
   git add . # will add all the files in the current folder into the git repo
   git show # will show the differences between the files changed
