@@ -12,7 +12,7 @@
   git push origin master
 
 # configure git mac users
-  git remote add origin https://github.com/reddycloudengineer/ecommerce_app.git
+
   git remote -v
   git push -u origin master
   git config user.name reddycloudengineer
